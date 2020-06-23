@@ -1,6 +1,6 @@
 FROM gcr.io/cloud-builders/javac:8
 
-ARG GRADLE_VERSION=6.4
+ARG GRADLE_VERSION=6.5
 ARG USER_HOME_DIR="/app"
 ARG BASE_URL=https://services.gradle.org/distributions
 
