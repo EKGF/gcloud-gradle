@@ -1,4 +1,4 @@
-FROM gcr.io/cloud-builders/javac
+FROM openjdk:15-jdk-buster
 
 ARG GRADLE_VERSION=6.6.1
 ARG USER_HOME_DIR="/app"
