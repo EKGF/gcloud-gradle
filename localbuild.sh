@@ -4,7 +4,7 @@
 #
 _IMAGE_NAME="ekgf/gcloud-gradle"
 _IMAGE_VERSION="latest"
-_MANUALLY_INCREMENTED_IMAGE_VERSION="0.0.3"
+_MANUALLY_INCREMENTED_IMAGE_VERSION="0.0.4"
 
 docker build . \
   --iidfile=image.id \
