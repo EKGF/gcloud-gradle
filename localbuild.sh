@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 #
-# Keep this in sync with cloudbuild.yaml
+# Keep this in sync with cloudbuild.yaml, and .github/workflows/build.yml
 #
 _IMAGE_NAME="ekgf/gcloud-gradle"
 _IMAGE_VERSION="latest"
+
 _MANUALLY_INCREMENTED_IMAGE_VERSION="0.0.4"
 
 docker build . \
