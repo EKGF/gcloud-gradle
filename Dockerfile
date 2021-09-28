@@ -1,6 +1,6 @@
-FROM openjdk:15-jdk-buster
+FROM openjdk:18-jdk-buster
 
-ARG GRADLE_VERSION=6.6.1
+ARG GRADLE_VERSION=6.9.1
 ARG USER_HOME_DIR="/app"
 ARG BASE_URL=https://services.gradle.org/distributions
 
